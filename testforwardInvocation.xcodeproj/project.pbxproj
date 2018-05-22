@@ -15,6 +15,7 @@
 		D82A01F520B3C51300C91102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A01F420B3C51300C91102 /* main.m */; };
 		D82A01FF20B3C51300C91102 /* testforwardInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A01FE20B3C51300C91102 /* testforwardInvocationTests.m */; };
 		D82A020A20B3C51300C91102 /* testforwardInvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A020920B3C51300C91102 /* testforwardInvocationUITests.m */; };
+		D82A021920B3C53300C91102 /* TargetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A021820B3C53300C91102 /* TargetProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D82A020520B3C51300C91102 /* testforwardInvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testforwardInvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82A020920B3C51300C91102 /* testforwardInvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testforwardInvocationUITests.m; sourceTree = "<group>"; };
 		D82A020B20B3C51300C91102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82A021720B3C53300C91102 /* TargetProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetProxy.h; sourceTree = "<group>"; };
+		D82A021820B3C53300C91102 /* TargetProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D82A01E620B3C51000C91102 /* AppDelegate.m */,
 				D82A01E820B3C51000C91102 /* ViewController.h */,
 				D82A01E920B3C51000C91102 /* ViewController.m */,
+				D82A021720B3C53300C91102 /* TargetProxy.h */,
+				D82A021820B3C53300C91102 /* TargetProxy.m */,
 				D82A01EB20B3C51000C91102 /* Main.storyboard */,
 				D82A01EE20B3C51300C91102 /* Assets.xcassets */,
 				D82A01F020B3C51300C91102 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82A01EA20B3C51000C91102 /* ViewController.m in Sources */,
+				D82A021920B3C53300C91102 /* TargetProxy.m in Sources */,
 				D82A01F520B3C51300C91102 /* main.m in Sources */,
 				D82A01E720B3C51000C91102 /* AppDelegate.m in Sources */,
 			);
